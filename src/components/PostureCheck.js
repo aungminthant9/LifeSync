@@ -170,7 +170,7 @@ const PostureCheck = () => {
     });
   };
 
-  // Add this in the return statement, before the upload section
+ 
   const exerciseOptions = (
     <div className="mb-6">
       <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -216,7 +216,7 @@ const PostureCheck = () => {
     }
   };
 
-  // Add this helper function for skeleton drawing
+  //helper function for skeleton drawing
   const drawSkeleton = (keypoints, ctx) => {
     const connections = [
       ['leftShoulder', 'rightShoulder'],
